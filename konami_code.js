@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   var konamiCodePosition = 0;
 
-  const body = document.querySelector('body')
+  const body = document.querySelector('body');
   body.addEventListener('keydown', function(e) {
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
