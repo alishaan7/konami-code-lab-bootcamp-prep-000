@@ -17,7 +17,7 @@ function init() {
       konamiCodePosition++;
       // if the last key is reached, activate cheats
       if (konamiCodePosition == code.length) {
-          activateCheats();
+          alert("Hurray!");
           konamiCodePosition = 0;
       }
     }else {
