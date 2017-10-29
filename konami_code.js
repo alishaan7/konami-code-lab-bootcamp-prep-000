@@ -10,21 +10,14 @@ function init() {n
     const key = parseInt(e.detail || e.which);
 
     if (key == code[konamiCodePosition]) {
-
       konamiCodePosition++;
-
       if (konamiCodePosition == code.length) {
-        
           alert("Hurray!");
           konamiCodePosition = 0;
-          
       }
-
     }else {
-      
         konamiCodePosition = 0;
-        
     }
-    
+
   });
 }
