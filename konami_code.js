@@ -6,9 +6,7 @@ function init() {n
   const body = document.querySelector('body');
 
   body.addEventListener('keydown', function(e) {
-
     const key = parseInt(e.detail || e.which);
-
     if (key == code[konamiCodePosition]) {
       konamiCodePosition++;
       if (konamiCodePosition == code.length) {
@@ -18,6 +16,5 @@ function init() {n
     }else {
         konamiCodePosition = 0;
     }
-
   });
 }
