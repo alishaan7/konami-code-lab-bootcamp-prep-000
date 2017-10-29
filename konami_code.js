@@ -1,6 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-function init() {n
+function init() {
   var konamiCodePosition = 0;
 
   const body = document.querySelector('body');
