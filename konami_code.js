@@ -8,7 +8,8 @@ function init() {
       return e.preventDefault()
     }
   })
-
+  var konamiCodePosition = 0;
+  
   document.addEventListener('keydown', function(e) {
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
