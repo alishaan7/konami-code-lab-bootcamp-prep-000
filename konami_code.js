@@ -3,15 +3,9 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   // Write your JavaScript code inside the init() function
   var konamiCodePosition = 0;
-  
+
   const body = document.querySelector('body')
   body.addEventListener('keydown', function(e) {
-    if (e.which === 71) {
-      return e.preventDefault()
-    }
-  })
-
-  document.addEventListener('keydown', function(e) {
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
   // get the value of the required key from the konami code
