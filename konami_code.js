@@ -5,13 +5,13 @@ function init() {
   var konamiCodePosition = 0;
 
   const body = document.querySelector('body');
-  
+
   body.addEventListener('keydown', function(e) {
   // get the value of the key code from the key map
   // var key = allowedKeys[e.keyCode];
   const key = parseInt(e.detail || e.which);
   // compare the key with the required key
-    if (key == requiredKey) {
+    if (key == code[konamiCodePosition]) {
       // move to the next key in the konami code sequence
       konamiCodePosition++;
       // if the last key is reached, activate cheats
